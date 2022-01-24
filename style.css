@@ -1,0 +1,33 @@
+.card__height {
+  height: 400px;
+}
+
+.__highlighted-card {
+  background-color: rgb(78, 109, 247);
+  transform: translateY(-40px);
+}
+
+.__highlighted-card h3 {
+  color: white;
+}
+.__highlighted-card h5 {
+  color: white;
+}
+.__highlighted-card p {
+  color: white;
+}
+
+.__highlighted-card li {
+  color: white;
+}
+.__high-btn {
+  border: 0;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  font-weight: 500;
+}
+.btn-color {
+  color: #f496d1;
+}
