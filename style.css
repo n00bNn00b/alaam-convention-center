@@ -1,5 +1,15 @@
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .card__height {
   height: 400px;
+}
+
+.alaam__body {
+  font-family: "Roboto", sans-serif;
+}
+.alaam__carousel__button {
+  text-decoration: none;
+  color: #f8f9fa !important;
 }
 
 .__highlighted-card {
@@ -29,14 +39,38 @@
   font-weight: 500;
 }
 .btn-color {
-  color: #f496d1;
+  background-color: #f1c8e2ab;
+  color: #3f87f5;
+  font-family: "Roboto", sans-serif;
 }
 .explore-btn {
   text-decoration: none;
 }
 .contact-color {
-  color: #943d24;
+  color: #0d6efd;
 }
 .custom-list {
   list-style-type: none;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-item img {
+    height: 350px;
+    width: 100%;
+  }
+  .alaam-copyright {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+  }
+  .alaam-copyright div:nth-of-type(1) {
+    order: 2;
+  }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .alaam-copyright {
+    display: flex;
+    justify-content: center;
+  }
 }
