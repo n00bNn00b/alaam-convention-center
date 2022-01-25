@@ -37,3 +37,6 @@
 .contact-color {
   color: #943d24;
 }
+.custom-list {
+  list-style-type: none;
+}
